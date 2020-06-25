@@ -1,0 +1,159 @@
+[
+        {
+                "sentence": "An evaluation of low molecular weight heparin and hyperbaric oxygen treatment in the prevention of intra-abdominal adhesions and wound healing.",
+                "tokens": [
+                        "An",
+                        "evaluation",
+                        "of",
+                        "low",
+                        "molecular",
+                        "weight",
+                        "heparin",
+                        "and",
+                        "hyperbaric",
+                        "oxygen",
+                        "treatment",
+                        "in",
+                        "the",
+                        "prevention",
+                        "of",
+                        "intra-abdominal",
+                        "adhesions",
+                        "and",
+                        "wound",
+                        "healing",
+                        "."
+                ],
+                "pos-tags": [
+                        "DET",
+                        "NOUN",
+                        "ADP",
+                        "ADJ",
+                        "ADJ",
+                        "NOUN",
+                        "NOUN",
+                        "CCONJ",
+                        "ADJ",
+                        "NOUN",
+                        "NOUN",
+                        "ADP",
+                        "DET",
+                        "NOUN",
+                        "ADP",
+                        "ADJ",
+                        "NOUN",
+                        "CCONJ",
+                        "NOUN",
+                        "NOUN",
+                        "PUNCT"
+                ],
+                "parse": [
+                        "det/dep=0/gov=1",
+                        "root/dep=1/gov=-1",
+                        "case/dep=2/gov=10",
+                        "amod/dep=3/gov=6",
+                        "amod/dep=4/gov=6",
+                        "compound/dep=5/gov=6",
+                        "compound/dep=6/gov=10",
+                        "cc/dep=7/gov=10",
+                        "amod/dep=8/gov=9",
+                        "compound/dep=9/gov=10",
+                        "nmod/dep=10/gov=1",
+                        "case/dep=11/gov=13",
+                        "det/dep=12/gov=13",
+                        "nmod/dep=13/gov=1",
+                        "case/dep=14/gov=16",
+                        "amod/dep=15/gov=16",
+                        "nmod/dep=16/gov=13",
+                        "cc/dep=17/gov=19",
+                        "compound/dep=18/gov=19",
+                        "conj/dep=19/gov=16",
+                        "punct/dep=20/gov=1"
+                ],
+                "gold_entity_mentions": [
+                        {
+                                "text": "low molecular weight heparin",
+                                "start": 3,
+                                "end": 7,
+                                "entity_type": "Drug_or_compound"
+                        },
+                        {
+                                "text": "hyperbaric oxygen",
+                                "start": 8,
+                                "end": 10,
+                                "entity_type": "Drug_or_compound"
+                        }
+                ],
+                "gold_event_mentions": [
+                        {
+                                "trigger": {
+                                        "text": "treatment",
+                                        "start": 10,
+                                        "end": 11
+                                },
+                                "arguments": [],
+                                "event_type": "Planned_process"
+                        },
+                        {
+                                "trigger": {
+                                        "text": "treatment",
+                                        "start": 10,
+                                        "end": 11
+                                },
+                                "arguments": [],
+                                "event_type": "Planned_process"
+                        }
+                ]
+        },
+        {
+                "sentence": "VEGF-targeted therapy: therapeutic potential and recent advances.",
+                "tokens": [
+                        "VEGF",
+                        "-",
+                        "targeted",
+                        "therapy",
+                        ":",
+                        "therapeutic",
+                        "potential",
+                        "and",
+                        "recent",
+                        "advances",
+                        "."
+                ],
+                "pos-tags": [
+                        "PROPN",
+                        "PUNCT",
+                        "VERB",
+                        "NOUN",
+                        "PUNCT",
+                        "ADJ",
+                        "NOUN",
+                        "CCONJ",
+                        "ADJ",
+                        "NOUN",
+                        "PUNCT"
+                ],
+                "parse": [
+                        "obl:npmod/dep=0/gov=2",
+                        "punct/dep=1/gov=2",
+                        "amod/dep=2/gov=3",
+                        "root/dep=3/gov=-1",
+                        "punct/dep=4/gov=3",
+                        "amod/dep=5/gov=6",
+                        "appos/dep=6/gov=3",
+                        "cc/dep=7/gov=9",
+                        "amod/dep=8/gov=9",
+                        "conj/dep=9/gov=6",
+                        "punct/dep=10/gov=3"
+                ],
+                "gold_entity_mentions": [
+                        {
+                                "text": "VEGF",
+                                "start": 0,
+                                "end": 1,
+                                "entity_type": "Gene_or_gene_product"
+                        }
+                ],
+                "gold_event_mentions": []
+        }
+]
