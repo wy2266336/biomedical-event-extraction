@@ -1,0 +1,37 @@
+T18	Blood_vessel_development 514 526	angiogenesis
+T35	Pathway 1375 1384	signaling
+T5	Death 185 189	kill
+E5	Death:T5 Theme:T6
+T12	Localization 531 541	metastasis
+E12	Localization:T12 Theme:T17
+T13	Positive_regulation 477 487	initiation
+E13	Positive_regulation:T13 Theme:T17
+T14	Localization 504 512	invasion
+E14	Localization:T14 Theme:T17
+T16	Growth 489 502	proliferation
+E16	Growth:T16 Theme:T17
+T32	Negative_regulation 1343 1351	suppress
+E32	Negative_regulation:T32 Theme:E33
+T33	Gene_expression 1356 1366	expression
+E33	Gene_expression:T33 Theme:T34
+*	Equiv T3 T4
+*	Equiv T22 T23
+*	Equiv T25 T26
+*	Equiv T27 T28
+T8	Positive_regulation 185 189	kill
+E2	Positive_regulation:T8 Theme:E5 Cause:T3
+T39	Planned_process 18 27	Treatment
+E3	Planned_process:T39 Instrument:T2 Theme:T1000
+T40	Regulation 454 467	major players
+E4	Regulation:T40 Cause:T10 Theme:E13
+E6	Regulation:T40 Cause:T10 Theme:E16
+E7	Regulation:T40 Cause:T10 Theme:E14
+E8	Regulation:T40 Cause:T10 Theme:E18
+E9	Regulation:T40 Cause:T10 Theme:E12
+T15	Planned_process 990 999	treatment
+E10	Planned_process:T15 Instrument:T27
+E11	Planned_process:T15 Instrument:T25
+E15	Planned_process:T15 Instrument:T22
+E17	Negative_regulation:T32 Theme:E19
+E18	Blood_vessel_development:T18 AtLoc:T17
+E19	Pathway:T35 Participant:T36
